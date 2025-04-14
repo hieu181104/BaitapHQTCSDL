@@ -56,3 +56,17 @@ Xây dựng bảng Thoikhoabieu với trường stt làm PK, các trường FK g
 ![image](https://github.com/user-attachments/assets/eea2edac-ee0f-4666-abd2-f21c1a7afa8a)
 ![image](https://github.com/user-attachments/assets/e92fb4f1-8261-44d0-9a08-735d74fe18b9)
 ### Thêm dữ liệu vào bảng
+Truy cập trang web TMS.tnut.edu.vn rồi lấy dữ liệu vào excel, ở đây em lấy dữ liệu thời khóa biểu tuần 33:
+![image](https://github.com/user-attachments/assets/2c1601c1-9fec-45af-8655-d9400493ed02)
+#### Sau khi lọc các thông tin cần thiết, ta sẽ thu được dữ liệu 3nf thêm vào các bảng:
+#### Bảng Giaovien:
+![image](https://github.com/user-attachments/assets/9f40550a-a6b1-4691-b99a-9b36fe67d975)
+#### Bảng Monhoc:
+![image](https://github.com/user-attachments/assets/0d31b964-8ed5-4537-a92f-4ba9b14d26a9)
+#### Bảng Phonghoc:
+![image](https://github.com/user-attachments/assets/44fb6a94-147b-46bf-b9e7-7d136bdd9319)
+#### Bảng Lop:
+![image](https://github.com/user-attachments/assets/75acc7f8-9977-4b22-91b5-5712fc2f0adf)
+#### Bảng Thoikhoabieu:
+![image](https://github.com/user-attachments/assets/6b31ecb9-f36a-4d26-ae05-ab0f03758382)
+### Truy vấn thông tin
