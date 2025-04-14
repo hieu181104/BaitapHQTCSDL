@@ -18,10 +18,24 @@
 ## Bài làm
 ### Thiết kế cơ sở dữ liệu
 Em sẽ xây dựng các bảng sau:
-Bảng Giaovien (#magv, tengv)
-Bảng Monhoc (#mamon, tenmon)
-Bảng Phonghoc (#maphong, tenphong)
-Bảng Lop (#malop, tenlop, @magv)
-Bảng Thoikhoabieu (#stt, @magv, @malop, @mamon, @maphong, thu, tietbatdau, sotiet, giovao, giora, ngay)
-Từ các bảng trên, ta có thể truy vấn ra thông tin gồm 4 cột: tengv, tenmon, giovao, giora
+- Bảng Giaovien (#magv, tengv)
+- Bảng Monhoc (#mamon, tenmon)
+- Bảng Phonghoc (#maphong, tenphong)
+- Bảng Lop (#malop, tenlop, @magv)
+- Bảng Thoikhoabieu (#stt, @magv, @malop, @mamon, @maphong, thu, tietbatdau, sotiet, giovao, giora, ngay)
+#### Từ các bảng trên, ta có thể truy vấn ra thông tin gồm 4 cột: tengv, tenmon, giovao, giora
 ### Xây dựng các bảng
+#### Bảng Giaovien
+Xây dựng bảng Giaovien với trường magv đặt làm PK:
+![image](https://github.com/user-attachments/assets/f1203dfe-5cd9-45e6-9d79-462d7e3f8e19)
+#### Bảng Monhoc
+Xây dựng bảng Monhoc với trường mamon đặt làm PK:
+![image](https://github.com/user-attachments/assets/0f424f67-e3d9-4c02-a034-c709fbafc0c1)
+Để mỗi một tên môn học chỉ tương ứng một mã môn học, ta đặt Index cho trường tenmon:
+![image](https://github.com/user-attachments/assets/ba9ae00c-6a35-44ad-a006-b619302d122d)
+#### Bảng Phonghoc
+Xây dựng bảng Phonghoc với trường maphong làm PK:
+![image](https://github.com/user-attachments/assets/8cda683f-fcce-420a-b62a-5e24de1fe0c8)
+Để mỗi tên phòng chỉ tương ứng với một mã phòng, đặt Index cho trường tenphong:
+![image](https://github.com/user-attachments/assets/d0a37911-6ac7-4144-b310-e51a06888f18)
+
