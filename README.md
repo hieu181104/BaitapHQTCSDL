@@ -72,6 +72,24 @@ Truy cập trang web TMS.tnut.edu.vn rồi lấy dữ liệu vào excel, ở đ�
 ### Truy vấn thông tin
 Ta có thể truy vấn thông tin gồm 4 cột theo yêu cầu với những dòng lệnh sau:
 ![image](https://github.com/user-attachments/assets/6e97fc0d-c52e-4a02-85bb-d15aee66c8ae)
-#### Để trả lời câu hỏi trong khoảng thời gian từ datetime1 đến datetime2 có những giáo viên nào bận giảng dạy, ta sử dụng các dòng lệnh sau: 
+#### Để trả lời câu hỏi trong khoảng thời gian từ datetime1 đến datetime2 có những giáo viên nào bận giảng dạy, ta sử dụng các dòng lệnh sau:
+```sql
+DECLARE @datetime1 TIME = '2025-4-14 09:00';
+DECLARE @datetime2 TIME = '2025-4-14 12:00';
+
+SELECT 
+    gv.tengv AS [Họ tên giáo viên],
+    mh.tenmon AS [Môn dạy],
+    tkb.giovao AS [Giờ vào],
+    tkb.giora AS [Giờ ra]
+FROM 
+    Thoikhoabieu tkb
+JOIN 
+    Giaovien gv ON tkb.magv = gv.magv
+JOIN 
+    Monhoc mh ON tkb.mamon = mh.mamon
+WHERE 
+    CAST(tkb.giovao AS TIME) BETWEEN @datetime1 AND @datetime2;
+```
 ![image](https://github.com/user-attachments/assets/c297ad5a-ae14-4e52-98a4-4c06b1a1579b)
 #### Với kết quả truy vấn được, có thể thấy trong khoảng thời gian từ 9:00 tới 12:00 những giáo viên: N.V.Huy, Đ.D.Cốp, T.T.N.Linh, T.T.Thanh, N.V.Tính, Đ.T.Hiên và N.T.Linh đang bận giảng dạy.
