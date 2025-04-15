@@ -70,3 +70,7 @@ Truy cập trang web TMS.tnut.edu.vn rồi lấy dữ liệu vào excel, ở đ�
 #### Bảng Thoikhoabieu:
 ![image](https://github.com/user-attachments/assets/6b31ecb9-f36a-4d26-ae05-ab0f03758382)
 ### Truy vấn thông tin
+Ta có thể truy vấn thông tin gồm 4 cột theo yêu cầu với những dòng lệnh sau:
+![image](https://github.com/user-attachments/assets/6e97fc0d-c52e-4a02-85bb-d15aee66c8ae)
+#### Để trả lời câu hỏi trong khoảng thời gian từ datetime1 đến datetime2 có những giáo viên nào bận giảng dạy, ta sử dụng các dòng lệnh sau: 
+![image](https://github.com/user-attachments/assets/c297ad5a-ae14-4e52-98a4-4c06b1a1579b)
