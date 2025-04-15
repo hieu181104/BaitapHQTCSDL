@@ -60,13 +60,13 @@ Truy cập trang web TMS.tnut.edu.vn rồi lấy dữ liệu vào excel, ở đ�
 ![image](https://github.com/user-attachments/assets/2c1601c1-9fec-45af-8655-d9400493ed02)
 #### Sau khi lọc các thông tin cần thiết, ta sẽ thu được dữ liệu 3nf thêm vào các bảng:
 #### Bảng Giaovien:
-![image](https://github.com/user-attachments/assets/9f40550a-a6b1-4691-b99a-9b36fe67d975)
+![image](https://github.com/user-attachments/assets/735cbeff-a447-4521-993c-e353cb23c028)
 #### Bảng Monhoc:
-![image](https://github.com/user-attachments/assets/0d31b964-8ed5-4537-a92f-4ba9b14d26a9)
+![image](https://github.com/user-attachments/assets/1a6fd6b3-acbb-4f1e-8be3-ee03d08b5058)
 #### Bảng Phonghoc:
-![image](https://github.com/user-attachments/assets/44fb6a94-147b-46bf-b9e7-7d136bdd9319)
+![image](https://github.com/user-attachments/assets/66d27654-c6c7-4681-9433-48bf33646bf1)
 #### Bảng Lop:
-![image](https://github.com/user-attachments/assets/75acc7f8-9977-4b22-91b5-5712fc2f0adf)
+![image](https://github.com/user-attachments/assets/883f7388-41fc-4620-8801-1d4e79f4839b)
 #### Bảng Thoikhoabieu:
 ![image](https://github.com/user-attachments/assets/6b31ecb9-f36a-4d26-ae05-ab0f03758382)
 ### Truy vấn thông tin
