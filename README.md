@@ -74,3 +74,4 @@ Ta có thể truy vấn thông tin gồm 4 cột theo yêu cầu với những d
 ![image](https://github.com/user-attachments/assets/6e97fc0d-c52e-4a02-85bb-d15aee66c8ae)
 #### Để trả lời câu hỏi trong khoảng thời gian từ datetime1 đến datetime2 có những giáo viên nào bận giảng dạy, ta sử dụng các dòng lệnh sau: 
 ![image](https://github.com/user-attachments/assets/c297ad5a-ae14-4e52-98a4-4c06b1a1579b)
+#### Với kết quả truy vấn được, có thể thấy trong khoảng thời gian từ 9:00 tới 12:00 những giáo viên: N.V.Huy, Đ.D.Cốp, T.T.N.Linh, T.T.Thanh, N.V.Tính, Đ.T.Hiên và N.T.Linh đang bận giảng dạy.
